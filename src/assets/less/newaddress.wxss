@@ -1,0 +1,9 @@
+.newaddress /deep/ .van-nav-bar .van-icon,
+.newaddress /deep/ .van-nav-bar__text {
+  color: #106e33;
+}
+.newaddress /deep/ .van-button--danger,
+.newaddress /deep/ .van-switch--on {
+  background-color: #106e33;
+  border-color: #106e33;
+}

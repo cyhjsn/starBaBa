@@ -1,0 +1,46 @@
+.pay-boxing .pay-title {
+  font-size: 14px;
+  color: #666;
+}
+.pay-boxing .pad-middle {
+  padding: 20px 0;
+}
+.pay-boxing .pay-line {
+  border-bottom: 1px dashed #e8e8e8;
+  position: relative;
+}
+.pay-boxing .pay-line > div {
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+}
+.pay-boxing .pay-line > div.pay-left {
+  left: -20px;
+}
+.pay-boxing .pay-line > div.pay-right {
+  right: -20px;
+}
+.pay-boxing .foot-info {
+  padding-top: 20px;
+}
+.pay-boxing .date {
+  color: #999;
+  font-size: 12px;
+}
+.pay-boxing .foot-bottom {
+  display: flex;
+  margin-top: 10px;
+}
+.pay-boxing .foot-count {
+  margin-right: auto;
+  color: #666;
+  font-size: 14px;
+}
+.pay-boxing .foot-total {
+  font-size: 14px;
+  font-weight: bold;
+  color: #106e33;
+}

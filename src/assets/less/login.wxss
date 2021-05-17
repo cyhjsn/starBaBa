@@ -1,0 +1,65 @@
+.login .lg-box {
+  position: fixed;
+  top: 6.92rem;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  padding: 10px;
+}
+.login .lg-bg {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.login .auto-img {
+  width: 100%;
+  display: block;
+}
+.login .bg-left {
+  width: 80px;
+  height: 80px;
+}
+.login .bg-right {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+.login .forgot {
+  color: #777;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.login .xinxi {
+  border-radius: 13px;
+  width: 95%;
+  margin: 0 auto;
+}
+.login .xinxi:nth-child(2) {
+  margin-top: 30px;
+}
+.login .btn-box {
+  margin-top: 40px;
+}
+.login .lg-btn {
+  border-radius: 13px;
+  width: 95%;
+  margin: 0 auto;
+}
+.login .register-btn {
+  border-radius: 13px;
+  width: 95%;
+  margin: 20px auto 0;
+}
+.login .rg-title {
+  width: 40px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-bottom: 5px solid seagreen;
+}
+.login .btn-box {
+  border-radius: 10px;
+  overflow: hidden;
+}

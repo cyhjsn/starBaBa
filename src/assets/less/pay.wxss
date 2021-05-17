@@ -1,0 +1,133 @@
+.pay {
+  padding-bottom: 65px;
+}
+.pay /deep/ .van-nav-bar .van-icon,
+.pay /deep/ .van-nav-bar__text {
+  color: #106e33;
+}
+.pay .p-box {
+  padding: 10px;
+}
+.pay .cc {
+  height: 19px;
+}
+.pay .select-address {
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.pay .u-info {
+  display: flex;
+}
+.pay .u-box {
+  margin-top: 10px;
+}
+.pay .u-name {
+  color: #106e33;
+  margin-right: 20px;
+}
+.pay .arrow {
+  margin-left: 5px;
+}
+.pay .address {
+  margin-top: 10px;
+}
+.pay .pro-box {
+  margin-top: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff;
+  padding: 10px;
+}
+.pay .title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.pay .pro-box-o {
+  height: 80px;
+  margin-bottom: 10px;
+}
+.pay .pro-box-o:last-child {
+  margin-bottom: 0;
+}
+.pay .pro-img {
+  width: 80px;
+  height: 80px;
+}
+.pay .pro-info {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+}
+.pay .p-i-text {
+  height: 50px;
+}
+.pay .p-c-box {
+  height: 30px;
+}
+.pay .en-name {
+  font-size: 12px;
+  color: #999;
+  float: left;
+}
+.pay .cn-name {
+  color: #106e33;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.pay .p-rule {
+  font-size: 12px;
+  color: #999;
+  line-height: 19px;
+}
+.pay .pro-price {
+  font-size: 14px;
+  color: #106e33;
+  font-weight: bold;
+  line-height: 30px;
+}
+.pay .number {
+  font-size: 14px;
+  line-height: 30px;
+}
+.pay .content {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.pay .bottom-content {
+  padding-top: 20px;
+}
+.pay .total {
+  color: #106e33;
+  font-size: 14px;
+  font-weight: bold;
+}
+.pay /deep/ .van-tag--danger {
+  background-color: #106e33;
+}
+.pay /deep/ .van-nav-bar .van-icon,
+.pay /deep/ .van-nav-bar__text {
+  color: #106e33;
+}
+.pay /deep/ .van-button--danger,
+.pay /deep/ .van-switch--on,
+.pay .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #106e33;
+  border-color: #106e33;
+}
+.pay .ar-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #106e33;
+  margin-left: 20px;
+  padding-top: 20px ;
+}
+.pay .pay-button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+}

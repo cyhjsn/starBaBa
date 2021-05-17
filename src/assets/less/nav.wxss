@@ -1,0 +1,24 @@
+.nav .left-title {
+  display: flex;
+}
+.nav .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+.nav .logo-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  line-height: 46px;
+  color: #666;
+}
+.nav .right-title {
+  color: #106e33;
+  font-weight: bold;
+}
+.nav .auto-img {
+  width: 100%;
+  display: block;
+}

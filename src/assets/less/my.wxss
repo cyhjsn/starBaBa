@@ -1,0 +1,74 @@
+.my .my-bg {
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+}
+.my /deep/ .van-uploader {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.my /deep/ .van-uploader__wrapper {
+  height: 100%;
+}
+.my /deep/ .van-uploader__upload {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.my .my-box {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.65) 0px, rgba(255, 255, 255, 0.65) 40px, #fff 40px);
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  top: -40px;
+  margin: 0 10px;
+}
+.my .my-info {
+  display: flex;
+}
+.my .my-img {
+  width: 60px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+  position: relative;
+}
+.my .up-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.my .my-text {
+  width: calc(100% - 70px);
+}
+.my .my-name {
+  height: 30px;
+  line-height: 30px;
+  color: #106e33;
+  font-size: 14px;
+  font-weight: bold;
+}
+.my .my-desc {
+  font-size: 14px;
+  color: #666;
+  height: 30px;
+  line-height: 30px;
+}
+.my .my-list {
+  margin-top: 60px;
+}
+.my /deep/ .van-cell {
+  padding: 10px 0;
+}
+.my /deep/ .van-cell:active {
+  background-color: #fff;
+}

@@ -1,0 +1,115 @@
+.detail {
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+.detail /deep/ .van-nav-bar .van-icon,
+.detail /deep/ .van-nav-bar__text {
+  color: #106e33;
+}
+.detail .pro-info {
+  background-color: #fff;
+  position: relative;
+  top: -20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+.detail .count {
+  float: right;
+}
+.detail .pro-box {
+  display: flex;
+}
+.detail .pro-price-box {
+  margin-top: 10px;
+}
+.detail .pro-price {
+  float: left;
+  color: #106e33;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 33px;
+}
+.detail .ch-name {
+  color: #106e33;
+  font-size: 16px;
+  font-weight: bold;
+}
+.detail .en-name {
+  color: #999;
+  font-size: 12px;
+}
+.detail .rules {
+  margin-top: 50px;
+}
+.detail .rule {
+  display: flex;
+  margin-bottom: 10px;
+}
+.detail .rule-title {
+  width: 50px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+}
+.detail .rule-items {
+  display: flex;
+}
+.detail .rule-items > div {
+  width: 60px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  background-color: #e8e8e8;
+  border-radius: 13px;
+  color: #666;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.detail .rule-items > div:last-child {
+  margin-right: 0;
+}
+.detail .rule-items > div.active {
+  background-color: #106e33;
+  color: #fff;
+}
+.detail .count-box {
+  margin-top: 30px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px 0;
+  display: flex;
+}
+.detail .select-count {
+  font-size: 14px;
+  color: #999;
+}
+.detail .count {
+  margin-left: auto;
+}
+.detail /deep/ .van-stepper--round .van-stepper__plus,
+.detail .van-info {
+  background-color: #106e33;
+}
+.detail /deep/ .van-stepper--round .van-stepper__minus {
+  color: #106e33;
+  border-color: #106e33;
+}
+.detail .desc {
+  margin-top: 30px;
+}
+.detail .desc-title {
+  font-size: 14px;
+  color: #666;
+}
+.detail .desc-text {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999;
+}
+.detail .desc-text > div {
+  margin-bottom: 10px;
+}
+.detail .desc-text > div:last-child {
+  margin-bottom: 0;
+}
